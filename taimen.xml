@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!--Device tree-->
+  <project name="deed-taimen/android_device_google_taimen" path="device/google/taimen" remote="github" revision="rr"/>
+  <project name="deed-taimen/android_device_google_wahoo" path="device/google/wahoo" remote="github" revision="rr"/>
+  <!--Hardware-->
+  <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github" revision="lineage-15.1"/>
+  <!--Kernel-->
+  <project name="deed-taimen/android_kernel_google_wahoo" path="kernel/google/wahoo" remote="github" revision="rr"/>
+  <!--Blobs-->
+  <project name="AICP/proprietary_vendor_google" path="vendor/google" remote="github" revision="o8.1"/>
+  <project name="deed-taimen/android_vendor_gapps" path="vendor/gapps" remote="github" revision="rr"/>
+  <!--Base-->
+  <remove-project path="frameworks/base" name="ResurrectionRemix/android_frameworks_base" remote="github" revision="oreo" />
+  <project path="frameworks/base" name="deed-taimen/android_frameworks_base" remote="github" revision="oreo" />
+  <remove-project path="packages/apps/Settings" name="ResurrectionRemix/Resurrection_packages_apps_Settings" remote="github" revision="oreo" />
+  <project path="packages/apps/Settings" name="deed-taimen/android_packages_apps_Settings" remote="github" revision="rr" />
+</manifest>
