@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="deed-taimen/android_device_google_taimen" path="device/google/taimen" remote="github" revision="aicp" />
+  <project name="deed-taimen/android_device_google_wahoo" path="device/google/wahoo" remote="github" revision="aicp" />
+  <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="aicp" revision="lineage-15.1" />
+  <project name="deed-taimen/android_kernel_google_wahoo" path="kernel/google/wahoo" remote="github" revision="rr" />
+  <project name="DirtyUnicorns/android_vendor_google" path="vendor/google" remote="aicp" revision="o8x" />
+  <project name="deed-taimen/android_vendor_gapps" path="vendor/pixelgapps" remote="github" revision="pixel" />
+  <remove-project groups="pdk" name="platform/external/clang" path="external/clang" remote="aosp" />
+  <project name="DirtyUnicorns/android_external_clang" path="external/clang" remote="github" revision="o8x" />
+  <remove-project clone-depth="1" groups="pdk" name="platform/prebuilts/clang/host/linux-x86" path="prebuilts/clang/host/linux-x86" remote="aosp" />
+  <project name="DirtyUnicorns/android_prebuilts_clang_host_linux-x86" path="prebuilts/clang/host/linux-x86" remote="github" revision="o8x" />
+  <remove-project clone-depth="1" groups="pdk" name="platform/prebuilts/misc" path="prebuilts/misc" remote="aosp" />
+  <project name="DirtyUnicorns/android_prebuilts_misc" path="prebuilts/misc" remote="github" revision="o8x" />
+</manifest>
